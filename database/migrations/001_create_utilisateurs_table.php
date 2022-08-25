@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('c_nom');
             $table->string('c_adresse');
-            $table->integer('c_tel');
+            $table->string('c_tel');
             $table->string('c_email');
             $table->string('c_p_nom');
             $table->string('c_p_pnom');

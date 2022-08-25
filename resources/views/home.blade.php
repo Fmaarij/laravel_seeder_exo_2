@@ -25,11 +25,11 @@
                 <td>{{ $item->c_email }}</td>
                 <td>{{ $item->c_p_nom }}</td>
                 <td>{{ $item->c_p_pnom }}</td>
-                <td>{{ $item->c_p_image }}</td>
-                {{-- <td>
-                    <img src="assets/img/{{ $item->c_p_image }}" width='50' height='50'
+                {{-- <td>{{ $item->c_p_image }}</td> --}}
+                <td>
+                    <img src="{{ $item->c_p_image }}" width='50' height='50'
                         class="img img-responsive" />
-                </td> --}}
+                </td>
             </tr>
         @endforeach
     </table>
